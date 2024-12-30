@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.text-button {
+    color: #777;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: thin;
+    width: 15%;
+}
+
+.text-button:hover {
+    color: #333;
+}
+
+.text-error {
+    color: red;
+}
+
+.text-warning {
+    color: orange
+}
